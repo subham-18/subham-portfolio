@@ -25,13 +25,6 @@ toggle.addEventListener("click", () => {
   navLinks.classList.toggle("show");
 });
 
-// Typewriter effect
-new Typewriter("#typewriter", {
-  strings: ["Aspiring Quant", "AI/ML Enthusiast", "Full Stack Dev"],
-  autoStart: true,
-  loop: true,
-});
-
 // GSAP Scroll Animations for sections
 gsap.registerPlugin(ScrollTrigger);
 
@@ -103,13 +96,13 @@ window.addEventListener("load", () => {
     loop: true,
     delay: 75,
   })
-    .typeString("Quant Researcher")
+    .typeString("Angular Developer")
     .pauseFor(1500)
     .deleteAll()
     .typeString("AI/ML Enthusiast")
     .pauseFor(1500)
     .deleteAll()
-    .typeString("Python Developer")
+    .typeString("Frontend Engineer")
     .pauseFor(1500)
     .start();
 });
